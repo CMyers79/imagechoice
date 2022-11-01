@@ -20,5 +20,5 @@ from imagechoiceapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
-    path('imagechocieapp/', include('imagechoiceapp.urls')),
+    path('imagechoiceapp/', include('imagechoiceapp.urls')),
 ]
