@@ -1,1 +1,1 @@
-web: gunicorn AIOpponentTest.wsgi --log-file -
+web: gunicorn imagechoice.wsgi --log-file -
